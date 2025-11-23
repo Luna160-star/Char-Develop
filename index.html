@@ -12,10 +12,27 @@
 
 </head>
 <body>
+    <a href="Home.html"> <button class="btn1"> Get Started </button> </a>
 
-    <a href="Home.html"> <button> Get Started </button> </a>
+    <div class="bar">
+        <ul>
+       <li> <a class= "Home" href="Home.html"> Home </a> </li>
+        <li> <a class= "About" href="About.html"> About </a> <li>
+        </ul>
+    </div>
 
 
+    <button class="mode" onclick="selMode()"> 🌞/🌚 </button>
+
+    <!-- addin some space for visibility-->
+
+    <script>
+        function selMode() {
+            var element = document.body;
+            element.classList.toggle("darkmode")
+        }
+
+    </script>
 
 </body>
 </html>

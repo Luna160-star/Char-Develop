@@ -1,0 +1,47 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.parentdiv{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.about{
+    height: 70px;
+    width: 155px;
+    border: solid 1px black;
+    border-radius: 1rem;
+    position: absolute;
+    cursor: pointer;
+    top: 250px;
+    left: 450px;
+    box-shadow: 0 4px 8px rgba(0.3,0,0,0.4);
+    transition: 0.3s;
+}
+
+.about:hover{
+    background: beige;
+    transform: translateY(-4px) translateX(2px);
+}
+
+.start{ 
+    height: 70px;
+    width: 155px;
+    border: solid 1px black;
+    border-radius: 1rem;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    box-shadow: 0 4px 8px rgba(0.3,0,0,0.4);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start:hover{
+    background: beige;
+    transform: translateY(-4px) translateX(-2px);
+}
+

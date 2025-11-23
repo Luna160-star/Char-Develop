@@ -4,7 +4,7 @@ body{
 }
 
 
-button{
+.btn1{
     background-color: rgb(35, 128, 235);
     font-size: 35px;
     border-radius: 14px;
@@ -12,4 +12,18 @@ button{
     top: 300px;
     left: 550px;
     font-family: "Macondo", cursive;
+}
+
+.darkmode{
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+.mode{
+    font-size: 15px;
+    background: beige;
+    position: absolute;
+    left: 1190px; ;
+    top: 10px;
+
 }

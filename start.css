@@ -1,0 +1,21 @@
+body, html{
+    margin: 0;
+    padding: 0;
+
+.next{
+    position: absolute;
+    top: 530px;
+    left: 1150px;
+    background-color: rgb(164, 234, 164);
+    font-size: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+
+}
+
+.next:hover{
+    transform: scale(0.9);
+    background-color: rgb(102, 232, 102);
+}

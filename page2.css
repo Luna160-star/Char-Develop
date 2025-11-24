@@ -8,25 +8,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-}
-
-.next{
-    position: absolute;
-    top: 550px;
-    left: 1175px;
-    background-color: rgb(164, 234, 164);
-    font-size: 30px;
-    border-radius: 0.7rem;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
-
-}
-
-.next:hover{
-    transform: scale(0.9);
-    background-color: rgb(102, 232, 102);
 }
 
 .parent{
@@ -38,12 +19,21 @@ body{
     justify-content: center;
 }
 
-p{
-    font-size: 25px;
-    font-family: ;
+.next{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 550px;
+    left: 1175px;
+    background-color: rgb(164, 234, 164);
+    font-size: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.next:hover{
+    transform: scale(0.9);
+    background-color: rgb(102,232,102);
 }
 
 .div1{
@@ -57,7 +47,6 @@ p{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 .div2{
@@ -91,7 +80,7 @@ p{
     top: 260px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -104,7 +93,7 @@ p{
     top: 320px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -117,12 +106,12 @@ p{
     top: 380px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .div7{
@@ -130,7 +119,7 @@ p{
     top: 440px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -143,18 +132,17 @@ p{
     top: 500px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 select{
     width: 250px;
-    border: solid 1px white;
+    border: solid 2px white;
     font-size: 14px;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
     cursor: pointer;
@@ -162,9 +150,6 @@ select{
     padding: 4px 4px;
 }
 
-select:hover {
-    border-color: rgb(150, 84, 84);
+select:hover{
+    border-color: rgb(145, 90, 90);
 }
-
-
-

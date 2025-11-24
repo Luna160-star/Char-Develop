@@ -1,0 +1,116 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.submit{
+    position: absolute;
+    top: 550px;
+    left: 1125px;
+    background-color: rgb(164, 234, 164);
+    font-size: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.submit:hover{
+    transform: scale(0.9);
+    background-color: rgb(119, 119, 192);
+
+}
+
+p{
+    font-size: 25px;
+    font-family: ;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.div1{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 20px;
+    box-shadoW: 0 4px 8px rgba(0,0,0,0.4);
+    height: 20px;
+    width: 1220px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.div2{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    height: 20px;
+    width: 1220px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.div3{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    height: 20px;
+    width: 1200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.div4{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    height: 20px;
+    width: 1200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.div5{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    height: 20px;
+    width: 1200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+select{
+    width: 250px;
+    border: solid 1ps white;
+    font-size: 14px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 4px 4px;
+}
+
+select: hover{
+    border-color: rgb(150,84,84);
+}

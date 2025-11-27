@@ -1,5 +1,4 @@
 <h2> Project Name: </h2>
-<br>
 CharDevelop
 
 <br><br>
@@ -26,9 +25,14 @@ Because it provides an organized structure for making a character. So,it fits th
 Other credits:
 -All the pictures/images used go to the respectful owner.
 -Google for certain css properties
--AI for little debugging
+-AI for little debugging and helping with few questions.
+<hr>
 
+Some note: <br>
+<li> I havent added any features to ensure that the data gets saved or exported, I dunno how to do that 😭, I will learn and try to implement it soon ig.
 
 <hr>
+
+
 
 Thank you!

@@ -28,6 +28,7 @@ Other credits:
 -Google for certain css properties
 -AI for little debugging
 
+
 <hr>
 
 Thank you!

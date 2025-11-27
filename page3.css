@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .submit{
@@ -51,51 +52,26 @@ p{
 
 .div2{
     position: absolute;
-    top: 140px;
-    left: 20px;
+    top: 90px;
+    left: -4px;
     font-size: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    height: 20px;
+    height: 140px;
     width: 1220px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
 
 .div3{
     position: absolute;
-    top: 200px;
-    left: 20px;
+    left: -4px;
+    top: 300px;
     font-size: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    height: 20px;
-    width: 1200px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.div4{
-    position: absolute;
-    top: 260px;
-    left: 20px;
-    font-size: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    height: 20px;
-    width: 1200px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.div5{
-    position: absolute;
-    top: 320px;
-    left: 20px;
-    font-size: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-    height: 20px;
-    width: 1200px;
+    height: 140px;
+    width: 1216px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -103,7 +79,7 @@ p{
 
 select{
     width: 250px;
-    border: solid 1ps white;
+    border: solid 1px white;
     font-size: 14px;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
     cursor: pointer;
@@ -111,6 +87,6 @@ select{
     padding: 4px 4px;
 }
 
-select: hover{
+select:hover{
     border-color: rgb(150,84,84);
 }

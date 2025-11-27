@@ -1,0 +1,25 @@
+body{
+    overflow: hidden;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-family: "Pirata One", system-ui;
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+
+}
+
+.parent{
+    width: 1260px;
+    height: 590px;
+    border: solid 2px black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

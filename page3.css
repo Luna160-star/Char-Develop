@@ -94,3 +94,15 @@ select:hover{
 label{
     font-family: "Squada One", sans-serif;
 }
+
+.prev{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    background-color: rgb(164, 234, 164);
+    font-size: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}

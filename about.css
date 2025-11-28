@@ -1,0 +1,50 @@
+body{
+    overflow: hidden;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parent{
+    width: 1260px;
+    height: 590px;
+    border: solid 2px black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    top: 150px;
+    left: 370px;
+    border: solid 1px black;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Mansalva", sans-serif;
+    padding-top: 18px;
+
+}
+
+.prev{
+    position: absolute;
+    top: 550px;
+    left: 20px;
+    background-color: rgb(164, 234, 164);
+    font-size: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+
+p{
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    font-family: "Pirata One", system-ui;
+    font-size: 50px;
+}

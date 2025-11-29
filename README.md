@@ -23,13 +23,14 @@ Because it provides an organized structure for making a character. So,it fits th
 <hr>
 
 Other credits:
--All the pictures/images used go to the respectful owner.
--Google for certain css properties
--AI for little debugging and helping with few questions.
+-All the pictures/images used go to the respectful owner. <br>
+-Google for certain css properties <br>
+-AI for little debugging and helping with few question  <br>
+-Youtube for learning js properties <br>
+
 <hr>
 
-Some note: <br>
-<li> I havent added any features to ensure that the data gets saved or exported, I dunno how to do that 😭, I will learn and try to implement it soon ig.
+
 
 <hr>
 

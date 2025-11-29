@@ -10,6 +10,7 @@ function downloadinfo() {
         ...page3
     };
 
+    ///*this part, i took help of chatgpt in creating and understanding it*///
     let textContent = " CHARACTER DATA \n\n ";
     for (let data in filecombine) {
         textContent += `${data}: ${filecombine[data]}\n`;

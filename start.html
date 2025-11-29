@@ -25,7 +25,7 @@
             <div class="div1">
             <form>
             <label for="name"> Name your character: </label>
-            <input type="text" name="name1">
+            <input type="text" name="name1" id="name">
             <br><br>
             </form>
             </div>
@@ -34,7 +34,7 @@
             <div class="div2">
             <form>
             <label for="name"> Date of Birth or Age </label>
-            <input type="text" name="name2">
+            <input type="text" name="name2" id="dob">
             <br><br>
             </form>
             </div>
@@ -42,7 +42,7 @@
             <div class="div3">
             <form>
             <label for="q3"> Character Type: </label>
-            <Select id="q3" name="ques3">
+            <select name="ques3" id="ctype">
                 <option value="option 1" > Original Character </option>
                 <option value ="option 2"> Side Character </option>
                 <option value = "option 3"> Protagonist </option>
@@ -58,7 +58,7 @@
             <div class="div4">
               <form>
             <label for="q1"> Height:  </label>
-            <select id="q1" name="ques1">
+            <select id="height" name="ques1">
                 <option value="option 1"> Very Short </option>
                 <option value="option 2"> Short </option>
                 <option value="option3"> Average </option>
@@ -74,7 +74,7 @@
            <div class="div5">
             <form>
             <label for="name"> Gender: </label>
-            <input type="text" name="name3">
+            <input type="text" name="name3" id="gender">
             <br><br>
             </form>
             </div>
@@ -83,7 +83,7 @@
             <div class="div6">
             <form>
             <label for="q5"> Relationship Status:</label>
-            <select id="q5" name="ques5">
+            <select id="rstatus" name="ques5">
                 <option value="option 1"> Single </option>
                 <option value = "option 2"> Dating </option>
                 <option value= "option3"> Married </option>
@@ -99,7 +99,7 @@
            <div class="div7">
             <form>
             <label for="name"> Languages Spoken: </label>
-            <input type="text" name="name4">
+            <input type="text" name="name4" id="langsp">
             <br><br>
             </form>
             </div>
@@ -109,14 +109,17 @@
            <div class="div8">
             <form>
             <label for="name"> Occupation: </label>
-            <input type="text" name="name5">
+            <input type="text" name="name5" id="occupation">
             <br><br>
             </form>
 
-         <a href="page2.html"> <button class="next"> Next </button> </a>
+         <a href="page2.html"> <button class="next" onclick="datapage1()"> Next </button> </a>
          <a href="index.html"> <button class="prev"> Previous </button> </a>
 
 
     </div>
+
+    <script src="start.js"></script>
+
 </body>
 </html>

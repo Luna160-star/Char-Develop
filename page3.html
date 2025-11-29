@@ -12,6 +12,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 </style>
 
 </head>
@@ -22,7 +23,7 @@
             <div class="div1">
                 <form>
                 <label for="q1"> What type of world does your character live in? </label>
-                <select id="q1" name="ques1">
+                <select id="worldcheck" name="ques1">
                     <option> Modern: Realistic </option>
                     <option> Modern: Imaginary </option>
                     <option> Fantasy </option>
@@ -36,7 +37,7 @@
                 <form>
                 <label for="name1"> What major event in your character’s past shaped who they are today? </label>
                 <br><br>
-                <textarea id="story1"  rows="6" cols="50"></textarea>
+                <textarea id="pastq"  rows="6" cols="50"></textarea>
                 <br><br>
                 </form>
             </div>
@@ -45,7 +46,7 @@
                 <form>
                 <label for="name2"> Write down some pointers you have in your head to create the plot etc. </label>
                 <br><br>
-                <textarea id="story1"  rows="6" cols="50"></textarea>
+                <textarea id="plotpointers"  rows="6" cols="50"></textarea>
                 <br><br>
                 </form>
             </div>
@@ -53,8 +54,10 @@
 
         </div>
         
-        <a href="thankyou.html"> <button class="submit"> Generate </button> </a>
+        <a href="thankyou.html"> <button class="submit" onclick="datapage3()"> Generate </button> </a>
         <a href="page3.html"> <button class="prev"> Previous </button> </a>
     </div>
+
+    <script src="page3.js"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@ function datapage1(){
         relStatus,
         language,
         occup
-    }
+    };
 
     localStorage.setItem("info1", JSON.stringify(page1data));
 

@@ -166,6 +166,10 @@ label{
     font-family: "Squada One", sans-serif;
 }
 
+input{
+ font-family: "Amarante", serif;
+}
+
 .prev{
     position: absolute;
     top: 550px;

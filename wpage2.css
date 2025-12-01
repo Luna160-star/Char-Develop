@@ -1,64 +1,10 @@
-body, html{
+body,html{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: rgb(66, 104, 150);
-}
-
-#snow{
-    position: fixed;
-    pointer-events: none;
-    overflow: hidden;
-    top: 0px;
-    left: 0px;
-}
-
-.snowflake{
-    position: absolute;
-    top: -15px;
-    width: 8px;
-    height: 8px;
-    background: white;
-    opacity: 0.8;
-    animation: snowfall 4s linear infinite;
-    
-}
-
-@keyframes snowfall{
-    to{
-        transform: translateY(110vh);
-    }
-}
-
-.next{
-    position: absolute;
-    top: 45px;
-    left: 1155px;
-    background-color: rgb(164,234,164);
-    font-size: 30px;
-    border-radius: 0.7rem;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-}
-
-.next:hover{
-    transform: scale(0.9);
-    background-color: rgb(102,232,102);
-}
-
-.prev{
-    position: absolute;
-    top: 45px;
-    left: 10px;
-    background-color: rgb(164,234, 164);
-    font-size: 30px;
-    border-radius: 0.7rem;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    background-color: rgb(74, 124, 211);
 }
 
 .parent{
@@ -72,14 +18,14 @@ body{
 
 .next{
     position: absolute;
-    top: 45px;
-    left: 1155px;
+    top: 550px;
+    left: 1175px;
     background-color: rgb(164, 234, 164);
     font-size: 30px;
     border-radius: 0.7rem;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
 }
 
 .next:hover{
@@ -100,12 +46,10 @@ body{
     padding-bottom: 10px;
 }
 
-
 .div2{
     position: absolute;
     top: 140px;
     left: 20px;
-    font-size: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
@@ -119,7 +63,7 @@ body{
     top: 200px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0px 4p 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -131,7 +75,7 @@ body{
     position: absolute;
     top: 260px;
     left: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -149,14 +93,14 @@ body{
     width: 1200px;
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .div6{
     position: absolute;
     top: 380px;
     left: 20px;
-    box-shadow: 0 4px 8px  rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -169,7 +113,7 @@ body{
     top: 440px;
     left: 20px;
     font-size: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     height: 20px;
     width: 1200px;
     padding-left: 10px;
@@ -181,33 +125,41 @@ body{
     position: absolute;
     top: 500px;
     left: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    font-size: 20px;
     height: 20px;
     width: 1200px;
     padding-left: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 select{
     width: 250px;
-    border: solid 1px white;
+    border: solid 2px white;
     font-size: 14px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
     border-radius: 3px;
-    font-family: "Merienda", cursive;
+    font-family: "Meriends", cursive;
 }
 
-select: hover{
-    border-color: rgb(150,84,84);
+select:hover{
+    border-color: rgb(145, 90, 90);
 }
 
-input{
-    font-family: "Amarante", serif;
+p{
+    font-size: 25px;
+    font-family: "Pirata One", system-ui;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 label{
     font-family: "Squada One", sans-serif;
 }
 
+input{
+    font-family: "Amarante", serif;
+}

@@ -1,0 +1,34 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(66, 104, 150);
+}
+
+#snow{
+    position: fixed;
+    pointer-events: none;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+.snowflake{
+    position: absolute;
+    top: -15px;
+    width: 8px;
+    height: 8px;
+    background: white;
+    opacity: 0.8;
+    animation: snowfall 4s linear infinite;
+    
+}
+
+@keyframes snowfall{
+    to{
+        transform: translateY(110vh);
+    }
+}
+

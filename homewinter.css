@@ -92,7 +92,6 @@ body{
     left: 350px;
     height: 300px;
     width: 550px;
-    background-image: url("bg.jpg");
     z-index: 1;
 }
 
@@ -144,4 +143,9 @@ body{
     left: 1100px;
     top: 300px;
     font-family: "Mansalva", sans-serif;
+}
+
+.pic1{
+    position: absolute;
+    left: 320px;
 }

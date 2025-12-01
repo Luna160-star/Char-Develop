@@ -24,3 +24,19 @@ function datapage1(){
 
     window.location.href = "page2.html";
 }
+
+/*for snowflake part*/
+
+function snowflakefall() {
+    const snowake = document.createElement("div");
+    snowake.classList.add("snowflake");
+
+    snowake.style.left = Math.random() * window.innerWidth + "px";
+    snowake.style.animationDuration = (Math.random() * 2 + 4) + "s";
+
+    document.getElementById("snow").appendChild(snowake);
+
+    setTimeout(() => snowake.remove(), 4000);
+}
+
+setInterval (snowflakefall, 150);

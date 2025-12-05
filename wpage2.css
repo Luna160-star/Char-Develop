@@ -4,7 +4,9 @@ body,html{
 }
 
 body{
-    background-color: rgb(74, 124, 211);
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parent{
@@ -44,6 +46,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div2{
@@ -56,6 +59,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div3{
@@ -69,6 +73,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div4{
@@ -81,6 +86,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div5{
@@ -94,6 +100,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div6{
@@ -106,6 +113,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div7{
@@ -119,6 +127,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div8{
@@ -132,6 +141,7 @@ body{
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 select{
@@ -162,4 +172,16 @@ label{
 
 input{
     font-family: "Amarante", serif;
+}
+
+.prev{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    background-color: rgb(164, 234, 164);
+    font-size: 30px;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
 }

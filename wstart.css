@@ -4,7 +4,9 @@ body, html{
 }
 
 body{
-    background-color: rgb(66, 104, 150);
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #snow{
@@ -98,6 +100,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 
@@ -112,6 +115,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div3{
@@ -125,6 +129,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div4{
@@ -137,6 +142,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div5{
@@ -149,7 +155,8 @@ body{
     width: 1200px;
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+   background: rgb(117, 169, 242);
 }
 
 .div6{
@@ -162,6 +169,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div7{
@@ -175,6 +183,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div8{
@@ -187,6 +196,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 select{
@@ -199,7 +209,7 @@ select{
     font-family: "Merienda", cursive;
 }
 
-select: hover{
+select:hover{
     border-color: rgb(150,84,84);
 }
 

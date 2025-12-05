@@ -4,7 +4,9 @@ body, html{
 }
 
 body{
-    background-color: rgb(50, 92, 175);
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .submit{
@@ -43,6 +45,7 @@ p{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div2{
@@ -56,6 +59,7 @@ p{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 .div3{
@@ -69,6 +73,7 @@ p{
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgb(117, 169, 242);
 }
 
 select{
